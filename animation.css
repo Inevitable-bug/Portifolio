@@ -1,0 +1,22 @@
+@keyframes slide {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    .text-animation {
+      animation: slide 4s linear infinite;
+      font-weight: bold;
+      color: red;
+      text-shadow: .6vw .6vw 1vw black;
+      margin-top: 6vh;
+      font-size: 17vh;
+      margin-bottom: 0;
+    }
+    @media(min-width:700px){
+      .text-animation{
+        font-size: 55vh;
+      }
+    }
