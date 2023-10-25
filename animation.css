@@ -20,3 +20,8 @@
         font-size: 55vh;
       }
     }
+    @media(min-width:600px){
+      .text-animation{
+        font-size: 49vh;
+      }
+    }
