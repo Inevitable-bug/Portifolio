@@ -257,10 +257,15 @@ hr{
 .latestdiv{
   background-color: ;
   height: 20vh;
-  width: 25vh;
+  width: 26vh;
   margin: 2vh;
   margin-bottom: 2vh;
   box-shadow: 1vw 1vw 2vw black;
+}
+@media(min-width:200px){
+  .latestdiv{
+    width:23vh
+  }
 }
 .latestflex{
   display: flex;
